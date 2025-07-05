@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int ver(){
-	cout<<"v0.2 Preview"<<endl;
+	cout<<"v0.2 Preview\n";
 	return 0;
 }
 int commandparse(string str)
