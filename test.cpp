@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
+#include <windows.h>
 using namespace std;
 int ver(){
-	cout<<"v0.2 Preview\n";
+	cout<<"v0.2.1 Preview\n";
 	return 0;
 }
 int commandparse(string str)
@@ -16,6 +17,11 @@ int commandparse(string str)
 		cout<<"Bring-Console ";
 		ver();
 	}
+	else if(str=="nevergonnagiveyouup"){
+		system("start https://www.bilibili.com/video/BV1GJ411x7h7?t=0.0"); 
+	}
+	else if(str=="seeyouagain") {
+		system("start https://www.bilibili.com/video/BV1qU4y1F73A?t=0.0");
 	else{
 		cout<<"Command not found."<<endl;
 	}
@@ -27,6 +33,7 @@ int main()
 		cout<<">";
 		getline(cin,str);
 		commandparse(str);
+		
 	}
 }
 
