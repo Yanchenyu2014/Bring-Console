@@ -22,6 +22,7 @@ int commandparse(string str)
 	}
 	else if(str=="seeyouagain") {
 		system("start https://www.bilibili.com/video/BV1qU4y1F73A?t=0.0");
+	}
 	else{
 		cout<<"Command not found."<<endl;
 	}
